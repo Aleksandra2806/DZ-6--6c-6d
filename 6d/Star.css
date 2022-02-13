@@ -1,0 +1,16 @@
+.star-input {
+    display: none;
+}
+.star-label {
+    display: inline-block;
+    width: 75px;
+    height: 78px;
+    background-image:url(star0.png);
+}
+#star1:hover ~ .stars-rating :nth-child(1),
+#star2:hover ~ .stars-rating :nth-child(-n+2),
+#star3:hover ~ .stars-rating :nth-child(-n+3),
+#star4:hover ~ .stars-rating :nth-child(-n+4),
+#star5:hover ~ .stars-rating :nth-child(-n+5) {
+    background-image:url(star1.png);
+}
